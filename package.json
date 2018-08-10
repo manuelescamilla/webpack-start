@@ -1,0 +1,26 @@
+{
+  "name": "hello-es6",
+  "version": "1.0.0",
+  "description": "Webpack Babel Starter repo",
+  "main": "index.js",
+  "repository": "https://github.com/manuelescamilla/webpack-start.git",
+  "author": "Manuel Escamilla <me.ui.engineer@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+	"devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.7",
+    "mini-css-extract-plugin": "^0.2.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
