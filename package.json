@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/manuelescamilla/webpack-start.git",
   "author": "Manuel Escamilla <me.ui.engineer@gmail.com>",
-	"license": "MIT",
-	"scripts": {
+  "license": "MIT",
+  "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
-	"devDependencies": {
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
@@ -22,5 +22,8 @@
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "d3": "^5.5.0"
   }
 }
